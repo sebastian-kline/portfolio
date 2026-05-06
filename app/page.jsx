@@ -84,49 +84,33 @@ export default function Home() {
       <div className="relative z-10 mx-auto max-w-6xl px-6 py-8">
 
         {/* Navbar */}
-        <nav className="sticky top-0 z-50 flex items-center justify-between border-b border-zinc-800 bg-[#080808]/95 px-6 py-4 backdrop-blur-xl">
+        <nav className="sticky top-0 z-50 flex items-center justify-between gap-4 border-b border-zinc-800 bg-[#080808]/95 px-4 py-4 backdrop-blur-xl">
 
           <a
             href="#"
-            className="text-sm font-semibold tracking-tight text-white"
+            className="hidden text-sm font-semibold tracking-tight text-white sm:block"
           >
             Sebastian Kline
           </a>
 
-          <div className="flex items-center gap-6 text-sm text-zinc-400">
-
-            <a
-              href="#projects"
-              className="transition hover:text-white"
-            >
+          <div className="flex w-full items-center justify-between gap-3 text-xs text-zinc-400 sm:w-auto sm:justify-start sm:gap-6 sm:text-sm">
+            <a href="#projects" className="transition hover:text-white">
               Projects
             </a>
 
-            <a
-              href="#systems"
-              className="transition hover:text-white"
-            >
+            <a href="#systems" className="transition hover:text-white">
               Systems
             </a>
 
-            <a
-              href="#experience"
-              className="transition hover:text-white"
-            >
+            <a href="#experience" className="transition hover:text-white">
               Experience
             </a>
 
-            <a
-              href="#about"
-              className="transition hover:text-white"
-            >
+            <a href="#about" className="transition hover:text-white">
               About
             </a>
 
-            <a
-              href="#contact"
-              className="transition hover:text-white"
-            >
+            <a href="#contact" className="transition hover:text-white">
               Contact
             </a>
           </div>

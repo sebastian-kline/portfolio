@@ -509,7 +509,7 @@ export default function Home() {
               </a>
 
               <a
-                href="https://www.linkedin.com/in/sebastian-kline-77ba90248/"
+                href="https://www.linkedin.com/in/sebastiankline/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="rounded-full border border-zinc-700 px-6 py-3 text-sm font-bold text-zinc-300 transition hover:-translate-y-1 hover:bg-zinc-900"
